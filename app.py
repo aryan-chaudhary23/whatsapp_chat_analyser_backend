@@ -4,7 +4,8 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import matplotlib
 
-from backend.utility import daily_timeline
+from utility import daily_timeline
+
 
 matplotlib.use('Agg')  # Prevents using Tkinter for rendering
 import os
